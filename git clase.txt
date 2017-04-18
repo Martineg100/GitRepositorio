@@ -1,0 +1,34 @@
+
+git config --global user.name "Martineg100"
+git config --global user.email martineg100@hotmail.com
+
+git status
+git clone 
+
+
+
+git add .
+git estatus
+
+
+
+repositorio local(pc)
+git commit -m 'comentario para crear punto'
+repositorio central
+git push
+
+touch .gitignore en bin/ obj/ objdebug/ packages/ debug/
+.vs/
+
+
+
+
+
+
+
+
+
+
+
+
+
