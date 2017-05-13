@@ -1,0 +1,15 @@
+﻿@model WebMiProyecto.ViewModel.ClienteViewModel
+@using WebMiProyecto.Helpers
+@{
+    ViewBag.Title = "Alta";
+}
+
+<h2>Alta</h2>
+@Html.LabelTest();
+
+@using (Html.BeginForm("Guardar", "Clientes"))
+{
+    @Html.ValidationSummary()
+    @Html.EditorForModel()
+    <input type="submit" value="Crear" />
+}

@@ -9,10 +9,5 @@ namespace TextR.ViewModel
         public List<Productos> ListaProductos = new List<Productos>();
         public List<Clientes> ListaClientes = new List<Clientes>();
 
-
-
-
-
-
     }
 }

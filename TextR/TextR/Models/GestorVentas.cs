@@ -9,12 +9,15 @@ namespace TextR.Models
     {
         public List <Productos> ObtenerProductos()
         {
+            List<Productos> pro = new List<Productos>();
 
-            return null;
+            return pro;
         }
+
         public List<Clientes> ObtenerClientes()
         {
-            return null;
+            List<Clientes> cli = new List<Clientes>();
+            return cli;
         }
         
     }
