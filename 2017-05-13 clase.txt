@@ -1,0 +1,63 @@
+
+
+1) ¿cual es la diferencia entre out y ref?
+
+utilizando el operador out no se necesita inicializar o isntanciar el obsjeto antes de pasarlo a un metodo
+en cambio con el operador ref daria un error al no inicializarlo.-
+
+2)¿que es un tipo por valor o por referencia?
+un tipo por valor se almacena en la pila o stack, luego se libera.
+en cambio un tipo por referencia se al macena en el monton, donde es menos 
+eficiente su mantenimiento y se libera cuando se realiza la liberacion.
+un tipo por valor cuando se pasa a una funcion no es modificacio en el interior
+de este, ya que se utiliza una copia, un tipo por referencia si si modifica su valor
+
+3)¿se puede sobre escribir un metodo private virtual?
+un metodo privado no es visible fuera de una clase por lo tanto no puede sobre escribirse
+
+4)¿que quiere decir que string es inmutable?
+cuando se intenta cambiar un string, en realidad se crea una asignacion a un nuevo valor 
+quedando el primero sin modificar.-
+
+5)¿cual es la diferencia entre string y strinbuilder?
+string crea un nuevo objeto estring en la memoria cada vez que se trata de modificar
+stringbuilder modifica el mismo objeto sin crear uno nuevo en la memoria, sin reasignacion de 
+la misma.
+
+6)¿cual es la diferencia entre una clase y una estructura?
+una de las diferencia es que las clases es un tipo por refetrencia y las estructuras por valos,
+con esto las estructura se almacenan en la pila o stack es mas eficiente para referenciar, ademas
+cuando se entrega a una funcion esta realiza una copia y el valor original no se modifica
+.-
+
+7)¿cual es la diferencia entre clase abstracta o interface?
+una clase abstracta tiene por lo menos un metodo virtual, con posibilidad de trener metodos
+no virtuales definidos, en cambio una calse interfas solo tiene metodos virtuales
+sin definiciones.-
+
+8)¿cual es la diferencia entre un parametro por valor y por referencia?
+un parametro por valos cuando es pasado a una funcion, esta realiza una copia del valor original,
+mientras se realiza cambio dentro de la instancia el valor original permanece sin cambios,
+cuando un parametro es pasado por referencia, se pasa la direccion en memoria del valor real por lo 
+tanto puede cambiarse el vaor real si se desea en la instancia actual.-
+
+9)¿que significa que una classe sea sealed?
+una clase sealed es una clase que no se puede heredar, es decir una clase sellada.-
+
+10)¿defina polimorfismo?
+polimormismo es la posibilidad de definir multiples calses, con metodos y propiedades con el 
+mismo nombre que pueden tener funcionalidades diferenctes.-
+
+
+/------/13-5-17
+
+git status
+git add .
+git commit -m "detalle"
+git push
+
+
+f12 ver todo!!!!!!!!
+
+
+
