@@ -59,5 +59,11 @@ git push
 
 f12 ver todo!!!!!!!!
 
+*clase abstracta no se puede instanciar es para las clases que heredan, sin estas no tiene sentido instanciarla
+
+*interface contratos
+
+
+
 
 
