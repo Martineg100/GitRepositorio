@@ -1,0 +1,7 @@
+dom
+document.queryselector
+document.getElementsByTagName("div")
+document.querySelector("p['calss=parrafo']") = el primero
+document.querySelectorall("p['calss=parrafo']") = todos
+
+
