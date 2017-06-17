@@ -1,0 +1,114 @@
+10/6/2017 23:36:31 - INFO: Failed to open connection at 10/6/2017 23:36:31 -03:00 with error: Error relacionado con la red o específico de la instancia mientras se establecía una conexión con el servidor SQL Server. No se encontró el servidor o éste no estaba accesible. Compruebe que el nombre de la instancia es correcto y que SQL Server está configurado para admitir conexiones remotas. (provider: SQL Network Interfaces, error: 26 - Error al buscar el servidor o instancia especificado)
+
+10/6/2017 23:45:02 - INFO: Opened connection at 10/6/2017 23:45:02 -03:00
+
+10/6/2017 23:45:02 - INFO: Started transaction at 10/6/2017 23:45:02 -03:00
+
+10/6/2017 23:45:02 - INFO: INSERT [dbo].[Cliente]([Apellido], [Nombre], [Edad])
+VALUES (@0, @1, @2)
+SELECT [Id]
+FROM [dbo].[Cliente]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+10/6/2017 23:45:02 - INFO: 
+
+10/6/2017 23:45:02 - INFO: -- @0: 'Apellido' (Type = AnsiString, Size = 70)
+
+10/6/2017 23:45:02 - INFO: -- @1: 'Nombre3' (Type = AnsiString, Size = 70)
+
+10/6/2017 23:45:02 - INFO: -- @2: '33' (Type = Int32)
+
+10/6/2017 23:45:02 - INFO: -- Executing at 10/6/2017 23:45:02 -03:00
+
+10/6/2017 23:45:03 - INFO: -- Completed in 42 ms with result: SqlDataReader
+
+10/6/2017 23:45:03 - INFO: 
+
+10/6/2017 23:45:03 - INFO: Committed transaction at 10/6/2017 23:45:03 -03:00
+
+10/6/2017 23:45:03 - INFO: Closed connection at 10/6/2017 23:45:03 -03:00
+
+10/6/2017 23:45:03 - INFO: Opened connection at 10/6/2017 23:45:03 -03:00
+
+10/6/2017 23:45:03 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Apellido] AS [Apellido], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Edad] AS [Edad]
+    FROM [dbo].[Cliente] AS [Extent1]
+10/6/2017 23:45:03 - INFO: 
+
+10/6/2017 23:45:03 - INFO: -- Executing at 10/6/2017 23:45:03 -03:00
+
+10/6/2017 23:45:03 - INFO: -- Completed in 1 ms with result: SqlDataReader
+
+10/6/2017 23:45:03 - INFO: 
+
+10/6/2017 23:45:03 - INFO: Closed connection at 10/6/2017 23:45:03 -03:00
+
+16/6/2017 23:42:52 - INFO: Opened connection at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: Started transaction at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: INSERT [dbo].[Producto]([Nombre], [Precio], [Stock])
+VALUES (@0, @1, @2)
+SELECT [Id]
+FROM [dbo].[Producto]
+WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
+16/6/2017 23:42:52 - INFO: 
+
+16/6/2017 23:42:52 - INFO: -- @0: 'Televisor' (Type = AnsiString, Size = 50)
+
+16/6/2017 23:42:52 - INFO: -- @1: '5500' (Type = Decimal, Precision = 6, Scale = 2)
+
+16/6/2017 23:42:52 - INFO: -- @2: '4' (Type = Int32)
+
+16/6/2017 23:42:52 - INFO: -- Executing at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: -- Completed in 58 ms with result: SqlDataReader
+
+16/6/2017 23:42:52 - INFO: 
+
+16/6/2017 23:42:52 - INFO: Committed transaction at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: Closed connection at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: Opened connection at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+16/6/2017 23:42:52 - INFO: 
+
+16/6/2017 23:42:52 - INFO: -- Executing at 16/6/2017 23:42:52 -03:00
+
+16/6/2017 23:42:52 - INFO: -- Completed in 13 ms with result: SqlDataReader
+
+16/6/2017 23:42:52 - INFO: 
+
+16/6/2017 23:42:52 - INFO: Closed connection at 16/6/2017 23:42:52 -03:00
+
+17/6/2017 00:29:29 - INFO: Pasó por el action Busqueda
+17/6/2017 00:29:30 - INFO: Opened connection at 17/6/2017 00:29:30 -03:00
+
+17/6/2017 00:29:30 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+    WHERE [Extent1].[Nombre] LIKE @p__linq__0 ESCAPE '~'
+17/6/2017 00:29:30 - INFO: 
+
+17/6/2017 00:29:30 - INFO: -- p__linq__0: '%telev%' (Type = AnsiString, Size = 8000)
+
+17/6/2017 00:29:30 - INFO: -- Executing at 17/6/2017 00:29:30 -03:00
+
+17/6/2017 00:29:30 - INFO: -- Completed in 12 ms with result: SqlDataReader
+
+17/6/2017 00:29:30 - INFO: 
+
+17/6/2017 00:29:30 - INFO: Closed connection at 17/6/2017 00:29:30 -03:00
+
