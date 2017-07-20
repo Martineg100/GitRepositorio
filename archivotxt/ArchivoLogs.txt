@@ -112,3 +112,309 @@ WHERE @@ROWCOUNT > 0 AND [Id] = scope_identity()
 
 17/6/2017 00:29:30 - INFO: Closed connection at 17/6/2017 00:29:30 -03:00
 
+17/6/2017 10:46:16 - INFO: Opened connection at 17/6/2017 10:46:16 -03:00
+
+17/6/2017 10:46:16 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 10:46:16 - INFO: 
+
+17/6/2017 10:46:16 - INFO: -- Executing at 17/6/2017 10:46:16 -03:00
+
+17/6/2017 10:46:17 - INFO: -- Completed in 190 ms with result: SqlDataReader
+
+17/6/2017 10:46:17 - INFO: 
+
+17/6/2017 10:46:17 - INFO: Closed connection at 17/6/2017 10:46:17 -03:00
+
+17/6/2017 11:01:59 - INFO: Opened connection at 17/6/2017 11:01:59 -03:00
+
+17/6/2017 11:02:00 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:02:00 - INFO: 
+
+17/6/2017 11:02:00 - INFO: -- Executing at 17/6/2017 11:02:00 -03:00
+
+17/6/2017 11:02:00 - INFO: -- Completed in 44 ms with result: SqlDataReader
+
+17/6/2017 11:02:00 - INFO: 
+
+17/6/2017 11:02:00 - INFO: Closed connection at 17/6/2017 11:02:00 -03:00
+
+17/6/2017 11:05:43 - INFO: Opened connection at 17/6/2017 11:05:43 -03:00
+
+17/6/2017 11:05:43 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:05:43 - INFO: 
+
+17/6/2017 11:05:43 - INFO: -- Executing at 17/6/2017 11:05:43 -03:00
+
+17/6/2017 11:05:43 - INFO: -- Completed in 37 ms with result: SqlDataReader
+
+17/6/2017 11:05:43 - INFO: 
+
+17/6/2017 11:05:43 - INFO: Closed connection at 17/6/2017 11:05:43 -03:00
+
+17/6/2017 11:07:25 - INFO: Opened connection at 17/6/2017 11:07:25 -03:00
+
+17/6/2017 11:07:26 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:07:26 - INFO: 
+
+17/6/2017 11:07:26 - INFO: -- Executing at 17/6/2017 11:07:26 -03:00
+
+17/6/2017 11:07:26 - INFO: -- Completed in 42 ms with result: SqlDataReader
+
+17/6/2017 11:07:26 - INFO: 
+
+17/6/2017 11:07:26 - INFO: Closed connection at 17/6/2017 11:07:26 -03:00
+
+17/6/2017 11:10:59 - INFO: Opened connection at 17/6/2017 11:10:59 -03:00
+
+17/6/2017 11:11:00 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:11:00 - INFO: 
+
+17/6/2017 11:11:00 - INFO: -- Executing at 17/6/2017 11:11:00 -03:00
+
+17/6/2017 11:11:00 - INFO: -- Completed in 39 ms with result: SqlDataReader
+
+17/6/2017 11:11:00 - INFO: 
+
+17/6/2017 11:11:00 - INFO: Closed connection at 17/6/2017 11:11:00 -03:00
+
+17/6/2017 11:24:00 - INFO: Opened connection at 17/6/2017 11:24:00 -03:00
+
+17/6/2017 11:24:00 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:24:00 - INFO: 
+
+17/6/2017 11:24:00 - INFO: -- Executing at 17/6/2017 11:24:00 -03:00
+
+17/6/2017 11:24:00 - INFO: -- Completed in 41 ms with result: SqlDataReader
+
+17/6/2017 11:24:00 - INFO: 
+
+17/6/2017 11:24:00 - INFO: Closed connection at 17/6/2017 11:24:00 -03:00
+
+17/6/2017 11:24:33 - INFO: Opened connection at 17/6/2017 11:24:33 -03:00
+
+17/6/2017 11:24:33 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:24:33 - INFO: 
+
+17/6/2017 11:24:33 - INFO: -- Executing at 17/6/2017 11:24:33 -03:00
+
+17/6/2017 11:24:33 - INFO: -- Completed in 18 ms with result: SqlDataReader
+
+17/6/2017 11:24:33 - INFO: 
+
+17/6/2017 11:24:33 - INFO: Closed connection at 17/6/2017 11:24:33 -03:00
+
+17/6/2017 11:31:48 - INFO: Opened connection at 17/6/2017 11:31:48 -03:00
+
+17/6/2017 11:31:49 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:31:49 - INFO: 
+
+17/6/2017 11:31:49 - INFO: -- Executing at 17/6/2017 11:31:49 -03:00
+
+17/6/2017 11:31:49 - INFO: -- Completed in 41 ms with result: SqlDataReader
+
+17/6/2017 11:31:49 - INFO: 
+
+17/6/2017 11:31:49 - INFO: Closed connection at 17/6/2017 11:31:49 -03:00
+
+17/6/2017 11:32:14 - INFO: Opened connection at 17/6/2017 11:32:14 -03:00
+
+17/6/2017 11:32:14 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:32:14 - INFO: 
+
+17/6/2017 11:32:14 - INFO: -- Executing at 17/6/2017 11:32:14 -03:00
+
+17/6/2017 11:32:14 - INFO: -- Completed in 5 ms with result: SqlDataReader
+
+17/6/2017 11:32:14 - INFO: 
+
+17/6/2017 11:32:14 - INFO: Closed connection at 17/6/2017 11:32:14 -03:00
+
+17/6/2017 11:34:48 - INFO: Opened connection at 17/6/2017 11:34:48 -03:00
+
+17/6/2017 11:34:49 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:34:49 - INFO: 
+
+17/6/2017 11:34:49 - INFO: -- Executing at 17/6/2017 11:34:49 -03:00
+
+17/6/2017 11:34:49 - INFO: -- Completed in 39 ms with result: SqlDataReader
+
+17/6/2017 11:34:49 - INFO: 
+
+17/6/2017 11:34:49 - INFO: Closed connection at 17/6/2017 11:34:49 -03:00
+
+17/6/2017 11:34:58 - INFO: Opened connection at 17/6/2017 11:34:58 -03:00
+
+17/6/2017 11:34:58 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:34:58 - INFO: 
+
+17/6/2017 11:34:58 - INFO: -- Executing at 17/6/2017 11:34:58 -03:00
+
+17/6/2017 11:34:58 - INFO: -- Completed in 10 ms with result: SqlDataReader
+
+17/6/2017 11:34:58 - INFO: 
+
+17/6/2017 11:34:58 - INFO: Closed connection at 17/6/2017 11:34:58 -03:00
+
+17/6/2017 11:39:47 - INFO: Opened connection at 17/6/2017 11:39:47 -03:00
+
+17/6/2017 11:39:48 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:39:48 - INFO: 
+
+17/6/2017 11:39:48 - INFO: -- Executing at 17/6/2017 11:39:48 -03:00
+
+17/6/2017 11:39:48 - INFO: -- Completed in 38 ms with result: SqlDataReader
+
+17/6/2017 11:39:48 - INFO: 
+
+17/6/2017 11:39:48 - INFO: Closed connection at 17/6/2017 11:39:48 -03:00
+
+17/6/2017 11:39:59 - INFO: Opened connection at 17/6/2017 11:39:59 -03:00
+
+17/6/2017 11:39:59 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:39:59 - INFO: 
+
+17/6/2017 11:39:59 - INFO: -- Executing at 17/6/2017 11:39:59 -03:00
+
+17/6/2017 11:39:59 - INFO: -- Completed in 4 ms with result: SqlDataReader
+
+17/6/2017 11:39:59 - INFO: 
+
+17/6/2017 11:39:59 - INFO: Closed connection at 17/6/2017 11:39:59 -03:00
+
+17/6/2017 11:40:09 - INFO: Opened connection at 17/6/2017 11:40:09 -03:00
+
+17/6/2017 11:40:09 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:40:09 - INFO: 
+
+17/6/2017 11:40:09 - INFO: -- Executing at 17/6/2017 11:40:09 -03:00
+
+17/6/2017 11:40:09 - INFO: -- Completed in 4 ms with result: SqlDataReader
+
+17/6/2017 11:40:09 - INFO: 
+
+17/6/2017 11:40:09 - INFO: Closed connection at 17/6/2017 11:40:09 -03:00
+
+17/6/2017 11:40:27 - INFO: Opened connection at 17/6/2017 11:40:27 -03:00
+
+17/6/2017 11:40:27 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:40:27 - INFO: 
+
+17/6/2017 11:40:27 - INFO: -- Executing at 17/6/2017 11:40:27 -03:00
+
+17/6/2017 11:40:27 - INFO: -- Completed in 1 ms with result: SqlDataReader
+
+17/6/2017 11:40:27 - INFO: 
+
+17/6/2017 11:40:27 - INFO: Closed connection at 17/6/2017 11:40:27 -03:00
+
+17/6/2017 11:40:54 - INFO: Opened connection at 17/6/2017 11:40:54 -03:00
+
+17/6/2017 11:40:54 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 11:40:54 - INFO: 
+
+17/6/2017 11:40:54 - INFO: -- Executing at 17/6/2017 11:40:54 -03:00
+
+17/6/2017 11:40:54 - INFO: -- Completed in 1 ms with result: SqlDataReader
+
+17/6/2017 11:40:54 - INFO: 
+
+17/6/2017 11:40:54 - INFO: Closed connection at 17/6/2017 11:40:54 -03:00
+
+17/6/2017 12:10:26 - INFO: Opened connection at 17/6/2017 12:10:26 -03:00
+
+17/6/2017 12:10:27 - INFO: SELECT 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Nombre] AS [Nombre], 
+    [Extent1].[Precio] AS [Precio], 
+    [Extent1].[Stock] AS [Stock]
+    FROM [dbo].[Producto] AS [Extent1]
+17/6/2017 12:10:27 - INFO: 
+
+17/6/2017 12:10:27 - INFO: -- Executing at 17/6/2017 12:10:27 -03:00
+
+17/6/2017 12:10:27 - INFO: -- Completed in 40 ms with result: SqlDataReader
+
+17/6/2017 12:10:27 - INFO: 
+
+17/6/2017 12:10:27 - INFO: Closed connection at 17/6/2017 12:10:27 -03:00
+
